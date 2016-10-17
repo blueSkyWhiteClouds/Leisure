@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_big">
+
+            <com.ysm.weibo.showphoto.views.CircleNetworkImageImage
+                android:layout_width="@dimen/icon_big"
+                android:layout_height="@dimen/icon_big"
+                android:src="@mipmap/icon_1" />
+
+            <TextView
+                android:id="@+id/comments_user_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_big"
+                android:text="name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_big" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comments_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/margin_big"
+            android:paddingBottom="@dimen/margin_big"
+            android:text="评论内容"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_big" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_big"
+        android:layout_marginTop="@dimen/dialog_margin_middle"/>
+</LinearLayout>

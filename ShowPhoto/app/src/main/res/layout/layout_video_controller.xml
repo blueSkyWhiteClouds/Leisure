@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tran">
+
+    <RelativeLayout
+        android:id="@+id/controller_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@color/text_6"
+        android:padding="@dimen/margin_big">
+
+        <ImageView
+            android:id="@+id/controller_back"
+            android:layout_width="@dimen/icon_small"
+            android:layout_height="@dimen/icon_small"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/controller_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="标题"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_big" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/controller_bottom_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_1"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/controller_seek_bar"
+            style="@style/MediaController_SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_big"
+            android:focusable="true"
+            android:max="1000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_big"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/controller_play_iv"
+                android:layout_width="@dimen/icon_middle"
+                android:layout_height="@dimen/icon_middle"
+                android:src="@mipmap/icon_play" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/controller_current_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_big"
+                    android:text="9:00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_big" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_big"
+                    android:text="/" />
+
+                <TextView
+                    android:id="@+id/controller_total_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_big"
+                    android:text="10:00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_big" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/controller_full_iv"
+                android:layout_width="@dimen/icon_middle"
+                android:layout_height="@dimen/icon_middle"
+                android:background="@drawable/video_full_selector" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

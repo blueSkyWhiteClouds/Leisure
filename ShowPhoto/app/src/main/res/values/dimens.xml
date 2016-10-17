@@ -1,0 +1,90 @@
+<resources>
+
+    <!--间距-->
+    <dimen name="margin_12xbig">120dp</dimen>
+    <dimen name="margin_10xbig">100dp</dimen>
+    <dimen name="margin_9xbig">90dp</dimen>
+    <dimen name="margin_8xbig">80dp</dimen>
+    <dimen name="margin_7xbig">70dp</dimen>
+    <dimen name="margin_6xbig">60dp</dimen>
+    <dimen name="margin_5xbig">50dp</dimen>
+    <dimen name="margin_4xbig">40dp</dimen>
+    <dimen name="margin_3xbig">30dp</dimen>
+    <dimen name="margin_2xbig">20dp</dimen>
+
+    <dimen name="margin_xxxbig">18dp</dimen>
+    <dimen name="margin_xxbig">16dp</dimen>
+    <dimen name="margin_xbig">12dp</dimen>
+    <dimen name="margin_big">10dp</dimen>
+    <dimen name="margin_middle">8dp</dimen>
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_xxsmall">2dp</dimen>
+    <dimen name="margin_xxxsmall">1dp</dimen>
+
+    <!--字体-->
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_xxxbig">22sp</dimen>
+    <dimen name="text_xxbig">20sp</dimen>
+    <dimen name="text_xbig">18sp</dimen>
+    <dimen name="text_big">16sp</dimen>
+    <dimen name="text_middle">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_xsmall">10sp</dimen>
+    <dimen name="text_xxsmall">8sp</dimen>
+    <dimen name="text_xxxsmall">6sp</dimen>
+
+    <!--图标大小-->
+    <dimen name="icon_xxxbig">88dp</dimen>
+    <dimen name="icon_xxbig">76dp</dimen>
+    <dimen name="icon_xbig">64dp</dimen>
+    <dimen name="icon_big">48dp</dimen>
+    <dimen name="icon_middle">32dp</dimen>
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_xsmall">16dp</dimen>
+
+    <!--自定义图形的圆角度-->
+    <dimen name="shape_radius_big">18dp</dimen>
+    <dimen name="shape_radius_r">46dp</dimen>
+    <dimen name="shape_radius">6dp</dimen>
+    <!--自定义图形边的厚度-->
+    <dimen name="shape_stroke">2px</dimen>
+
+    <!--线的深度-->
+    <dimen name="line_big">1px</dimen>
+
+    <!--间距的高-->
+    <dimen name="space_height">15dp</dimen>
+
+    <!-- titlebar 高度 -->
+    <dimen name="title_height">56dp</dimen>
+
+    <!--内容标题的高度-->
+    <dimen name="top_height">48dp</dimen>
+    <!--item的高度-->
+    <dimen name="item_height">46dp</dimen>
+    <dimen name="item_content_height">36dp</dimen>
+
+    <dimen name="content_height">96dp</dimen>
+
+    <!-- 我的公司界面按钮高度 -->
+    <dimen name="company_btn_height">30dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="dialog_text_big">16sp</dimen>
+    <dimen name="dialog_text_middle">14sp</dimen>
+    <dimen name="dialog_text_small">10sp</dimen>
+
+    <!-- 间距大小 -->
+    <dimen name="dialog_margin_xxxbig">16dp</dimen>
+    <dimen name="dialog_margin_xxbig">14dp</dimen>
+    <dimen name="dialog_margin_xbig">12dp</dimen>
+    <dimen name="dialog_margin_big">10dp</dimen>
+    <dimen name="dialog_margin_middle">8dp</dimen>
+    <dimen name="dialog_margin_small">4dp</dimen>
+
+    <dimen name="dialog_line">1px</dimen>
+    <dimen name="dialog_content_height">78dp</dimen>
+
+    <dimen name="user_background_img">160dp</dimen>
+</resources>

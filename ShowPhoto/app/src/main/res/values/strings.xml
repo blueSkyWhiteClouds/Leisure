@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Leisure</string>
+
+    <string name="main_photo_text">图片展览</string>
+    <string name="main_video_text">视频中心</string>
+    <string name="main_programa_text">搞笑段子</string>
+    <string name="main_mine_text">我的</string>
+</resources>

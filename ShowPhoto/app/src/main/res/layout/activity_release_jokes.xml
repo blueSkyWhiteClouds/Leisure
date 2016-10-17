@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.ysm.weibo.showphoto.widget.TitleBarLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/jokes_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="请输入发布的内容..."
+        android:inputType="textMultiLine"
+        android:padding="@dimen/margin_big"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_6"
+        android:textSize="@dimen/text_big" />
+</LinearLayout>

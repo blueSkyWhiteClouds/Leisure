@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4D3EE"
+    android:orientation="vertical">
+
+    <com.ysm.weibo.showphoto.widget.TitleBarLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_xxbig">
+
+        <EditText
+            android:id="@+id/login_user_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_big"
+            android:background="@drawable/shape_edittext_line"
+            android:hint="请输入用户名"
+            android:padding="@dimen/margin_big"
+            android:singleLine="true"
+            android:textColor="@color/text_3"
+            android:textColorHint="@color/text_6"
+            android:textSize="@dimen/text_big" />
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_big"
+            android:background="@drawable/shape_edittext_line"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/margin_big"
+            android:singleLine="true"
+            android:textColor="@color/text_3"
+            android:textColorHint="@color/text_6"
+            android:textSize="@dimen/text_big" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2xbig"
+            android:background="@drawable/shape_login_btn"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xxbig" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/margin_xbig"
+            android:text="忘记密码？"
+            android:textColor="@color/text_6"
+            android:textSize="@dimen/text_big" />
+
+        <TextView
+            android:id="@+id/login_register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_5xbig"
+            android:text="注册账号"
+            android:textColor="@color/text_3"
+            android:textSize="@dimen/text_xbig" />
+    </LinearLayout>
+</LinearLayout>
